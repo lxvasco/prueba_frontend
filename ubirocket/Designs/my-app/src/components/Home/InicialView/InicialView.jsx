@@ -3,7 +3,7 @@ import { LaunchList } from '../LaunchList/LaunchList'
 
 export const InicialView = () => {
   return (
-    <div>
+    <div className='launchesList'>
         <h1>
             Upcoming - Next Launches
         </h1>
@@ -11,3 +11,4 @@ export const InicialView = () => {
     </div>
   )
 }
+

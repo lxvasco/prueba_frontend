@@ -1,18 +1,25 @@
-.App{
-  max-width: 80%;
-  padding: 10%;
-
-}
-
 h1{
   text-align: center;
 }
 
+.launchesList{
+  padding: 10%;
+  background-image: linear-gradient(to right, #b212eb, #b912eb, #c011eb, #c711eb, #ce12eb);
+  min-height: 100vh;
+}
+
 .list{
-  padding-bottom: 5%;
-  padding-top: 5%;
   border: 1px solid #b212eb;
-  background-color: #440751;;
+  background-color: #440751;
+  border: 10%;
+  
+}
+
+.nextLauncheCounter{
+  padding: 8%;
+  padding-top: 5%;
+  background: linear-gradient(to left, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
 }
 
 table{
@@ -30,3 +37,32 @@ th{
   padding: 10px;
 }
 
+ul.counter{
+  background-color: #07354c;
+  padding: 0%;
+  
+}
+
+ul.counter li{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1%;
+  align-items: center;
+  text-decoration: none;
+}
+
+.number{
+  font-size: 50px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}
+
+.letters{
+  font-size: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 1px;
+  text-transform: uppercase;
+}

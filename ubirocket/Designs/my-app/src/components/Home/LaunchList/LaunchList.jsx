@@ -9,7 +9,6 @@ export const LaunchList = () => {
     async function getData() {
         let request = await fetch("https://api.spacexdata.com/v3/launches/upcoming")
         let response = await request.json();
-        console.log(response)
         let launchList = []
         response.map(x => {
             launchList.push({
