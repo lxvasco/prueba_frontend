@@ -1,0 +1,32 @@
+.App{
+  max-width: 80%;
+  padding: 10%;
+
+}
+
+h1{
+  text-align: center;
+}
+
+.list{
+  padding-bottom: 5%;
+  padding-top: 5%;
+  border: 1px solid #b212eb;
+  background-color: #440751;;
+}
+
+table{
+  width: 100%;
+  
+}
+
+th, td{
+  width: 33%;
+  text-align: center;
+  border-bottom: 0.5px solid white;
+}
+
+th{
+  padding: 10px;
+}
+
