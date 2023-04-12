@@ -3,6 +3,8 @@ import { InicialView } from './components/Home/InicialView/InicialView'
 import { DataNextLaunch } from './components/Countdown/DataNextLaunch/DataNextLaunch'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Navbar } from './components/NavBar/Navbar'
+import { FavoritesView } from './components/Favorites/FavoritesView/FavoritesView'
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<InicialView />}></Route>
           <Route path="/Upcoming" element={<DataNextLaunch />}></Route>
+          <Route path="/Favorites" element={<FavoritesView />}></Route>
         </Routes>
       </div>
     </BrowserRouter>
