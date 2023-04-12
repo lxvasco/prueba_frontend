@@ -1,4 +1,5 @@
 import React from 'react'
+import { Share } from '../Share/Share';
 
 export const Counter = ({ mission, date }) => {
 
@@ -6,7 +7,7 @@ export const Counter = ({ mission, date }) => {
     let missionDate = new Date(date)
 
 
-    let difference =  +missionDate - +currentDate;
+    let difference = +missionDate - +currentDate;
 
     let timeLeft = {
         days: Math.floor(difference / (1000 * 60 * 60 * 24)),
@@ -18,6 +19,7 @@ export const Counter = ({ mission, date }) => {
     return (
         <div className='nextLauncheCounter'>
             <h1>Upcoming: {mission}</h1>
+            <Share/>
             <ul className='counter'>
                 <li><span className='number'>{timeLeft.days}</span><span className='letters'>Days</span></li>
                 <li><span className='number'>{timeLeft.hours}</span><span className='letters'>Hours</span></li>
