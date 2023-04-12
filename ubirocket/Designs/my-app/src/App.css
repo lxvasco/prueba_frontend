@@ -113,3 +113,13 @@ h4{
   color: #07354c;
 }
 
+.swal2-title {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.swal2-text {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.swal2-footer{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
