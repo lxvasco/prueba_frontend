@@ -9,12 +9,18 @@ h1{
   
 }
 
+
 .list{
   border: 1px solid #b212eb;
   background-color: #440751;
   border: 10%;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
+}
+
+.star{
+  width: 20px;
+  color: white;
 }
 
 .nextLauncheCounter{
@@ -29,7 +35,7 @@ table{
 }
 
 th, td{
-  width: 33%;
+  width: auto;
   text-align: center;
   border-bottom: 0.5px solid white;
 }
@@ -104,3 +110,4 @@ h4{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #07354c;
 }
+

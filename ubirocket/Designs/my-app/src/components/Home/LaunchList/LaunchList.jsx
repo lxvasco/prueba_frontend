@@ -31,6 +31,7 @@ export const LaunchList = () => {
         <table className='list'>
             <thead>
                 <tr>
+                    <th></th>
                     <th>Mission</th>
                     <th>Date(UTC)</th>
                     <th>Launchpad</th>
